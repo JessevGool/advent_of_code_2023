@@ -2,7 +2,10 @@ use std::fs::File;
 use std::io::{self, BufRead};
 
 fn main() {
+    println!("--- Day 4: Scratchcards ---");
+    println!("Part One: ");
     let cards = part_one();
+    println!("Part Two: ");
     part_two(cards);
 }
 
@@ -70,7 +73,8 @@ fn part_one() -> Vec<Card> {
     }
 }
 
-fn part_two(cards: Vec<Card>) {}
+fn part_two(cards: Vec<Card>) {
+}
 
 struct Card {
     card_number: u8,
